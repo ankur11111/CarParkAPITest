@@ -24,7 +24,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 //import com.core.ddf.DataDrivenFramework.Xls_Reader;
 
 public class Xls_Reader {
-	public static String filename = System.getProperty("user.dir")+"\\src\\config\\testcases\\TestData.xlsx";
+	//public static String filename = System.getProperty("user.dir")+"\\src\\config\\testcases\\TestData.xlsx";
 	public  String path;
 	public  FileInputStream fis = null;
 	public  FileOutputStream fileOut =null;
