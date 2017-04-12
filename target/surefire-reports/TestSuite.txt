@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 16.458 sec <<< FAILURE! - in TestSuite
+CreateParkingTest(com.core.restapi.RESTApiProject.testcases.CreateParking)  Time elapsed: 0.457 sec  <<< FAILURE!
+java.lang.AssertionError: Failed
+	at com.core.restapi.RESTApiProject.testcases.CreateParking.CreateParkingTest(CreateParking.java:55)
+
+CreateParkingTest(com.core.restapi.RESTApiProject.testcases.CreateParking)  Time elapsed: 0.452 sec  <<< FAILURE!
+java.lang.AssertionError: Failed
+	at com.core.restapi.RESTApiProject.testcases.CreateParking.CreateParkingTest(CreateParking.java:55)
+
+CreateParkingTest(com.core.restapi.RESTApiProject.testcases.CreateParking)  Time elapsed: 0.44 sec  <<< FAILURE!
+java.lang.AssertionError: Failed
+	at com.core.restapi.RESTApiProject.testcases.CreateParking.CreateParkingTest(CreateParking.java:55)
+
+ParkACarTest(com.core.restapi.RESTApiProject.testcases.ParkACar)  Time elapsed: 0.445 sec  <<< FAILURE!
+java.lang.AssertionError: Failed
+	at com.core.restapi.RESTApiProject.testcases.ParkACar.ParkACarTest(ParkACar.java:57)
+
+ParkingStatusTest(com.core.restapi.RESTApiProject.testcases.ParkingStatus)  Time elapsed: 0.443 sec  <<< FAILURE!
+java.lang.AssertionError: Failed
+	at com.core.restapi.RESTApiProject.testcases.ParkingStatus.ParkingStatusTest(ParkingStatus.java:49)
+
+registerParkingTest(com.core.restapi.RESTApiProject.testcases.InfoByColor)  Time elapsed: 0.417 sec  <<< FAILURE!
+java.lang.AssertionError: Failed
+	at com.core.restapi.RESTApiProject.testcases.InfoByColor.registerParkingTest(InfoByColor.java:50)
+
+getSlotNumberTest(com.core.restapi.RESTApiProject.testcases.getSlotNumber)  Time elapsed: 0.442 sec  <<< FAILURE!
+java.lang.AssertionError: Failed
+	at com.core.restapi.RESTApiProject.testcases.getSlotNumber.getSlotNumberTest(getSlotNumber.java:50)
+
+getSlotNumberTest(com.core.restapi.RESTApiProject.testcases.getSlotNumber)  Time elapsed: 0.429 sec  <<< FAILURE!
+java.lang.AssertionError: Failed
+	at com.core.restapi.RESTApiProject.testcases.getSlotNumber.getSlotNumberTest(getSlotNumber.java:50)
+

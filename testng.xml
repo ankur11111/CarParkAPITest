@@ -1,0 +1,73 @@
+<suite name="SuiteName">
+
+<test name="registerParkingTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot" />
+		
+		</classes>
+		
+		
+	</test>
+	
+	<test name="CreateParkingTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.CreateParking" />
+		
+		</classes>
+		
+		
+	</test>
+	
+	<test name="ParkACarTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.ParkACar" />
+		
+		</classes>
+		
+		
+	</test>
+	
+		
+	<test name="ParkingStatusTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus" />
+		
+		</classes>
+		
+		
+	</test>
+	<test name="InfoByColorTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.InfoByColor" />
+		
+		</classes>
+		
+		
+	</test>
+	
+	<test name="getSlotNumberTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber" />
+		
+		</classes>
+		
+		
+	</test>
+	
+	<test name="vacateParkingTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.vacateParking" />
+		
+		</classes>
+		
+		
+	</test>
+	
+</suite>

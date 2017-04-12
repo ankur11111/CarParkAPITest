@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SuiteName]">
+  <test name="CreateParkingTest(failed)">
+    <classes>
+      <class name="com.core.restapi.RESTApiProject.testcases.CreateParking">
+        <methods>
+          <include name="CreateParkingTest" invocation-numbers="2 3 4"/>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.CreateParking -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkingStatus -->
+      <class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.getSlotNumber -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
+      <class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.registerParkingLot -->
+      <class name="com.core.restapi.RESTApiProject.testcases.InfoByColor">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.InfoByColor -->
+    </classes>
+  </test> <!-- CreateParkingTest(failed) -->
+  <test name="ParkACarTest(failed)">
+    <classes>
+      <class name="com.core.restapi.RESTApiProject.testcases.CreateParking">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.CreateParking -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkingStatus -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
+        <methods>
+          <include name="ParkACarTest" invocation-numbers="1"/>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
+      <class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.getSlotNumber -->
+      <class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.registerParkingLot -->
+      <class name="com.core.restapi.RESTApiProject.testcases.InfoByColor">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.InfoByColor -->
+    </classes>
+  </test> <!-- ParkACarTest(failed) -->
+  <test name="ParkingStatusTest(failed)">
+    <classes>
+      <class name="com.core.restapi.RESTApiProject.testcases.CreateParking">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.CreateParking -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus">
+        <methods>
+          <include name="ParkingStatusTest" invocation-numbers="1"/>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkingStatus -->
+      <class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.getSlotNumber -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
+      <class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.registerParkingLot -->
+      <class name="com.core.restapi.RESTApiProject.testcases.InfoByColor">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.InfoByColor -->
+    </classes>
+  </test> <!-- ParkingStatusTest(failed) -->
+  <test name="InfoByColorTest(failed)">
+    <classes>
+      <class name="com.core.restapi.RESTApiProject.testcases.CreateParking">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.CreateParking -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkingStatus -->
+      <class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.getSlotNumber -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
+      <class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.registerParkingLot -->
+      <class name="com.core.restapi.RESTApiProject.testcases.InfoByColor">
+        <methods>
+          <include name="registerParkingTest" invocation-numbers="2"/>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.InfoByColor -->
+    </classes>
+  </test> <!-- InfoByColorTest(failed) -->
+  <test name="getSlotNumberTest(failed)">
+    <classes>
+      <class name="com.core.restapi.RESTApiProject.testcases.CreateParking">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.CreateParking -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkingStatus -->
+      <class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber">
+        <methods>
+          <include name="getSlotNumberTest" invocation-numbers="2 3"/>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.getSlotNumber -->
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
+      <class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.registerParkingLot -->
+      <class name="com.core.restapi.RESTApiProject.testcases.InfoByColor">
+        <methods>
+          <include name="repoquit"/>
+        </methods>
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.InfoByColor -->
+    </classes>
+  </test> <!-- getSlotNumberTest(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

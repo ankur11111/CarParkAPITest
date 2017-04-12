@@ -1,0 +1,7 @@
+com\core\restapi\RESTApiProject\testcases\registerParkingLot.class
+com\core\restapi\RESTApiProject\testcases\getSlotNumber.class
+com\core\restapi\RESTApiProject\testcases\ParkACar.class
+com\core\restapi\RESTApiProject\testcases\CreateParking.class
+com\core\restapi\RESTApiProject\testcases\InfoByColor.class
+com\core\restapi\RESTApiProject\testcases\ParkingStatus.class
+com\core\restapi\RESTApiProject\BaseTest.class
