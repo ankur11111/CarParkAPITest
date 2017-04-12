@@ -78,8 +78,8 @@ public class ParkACar extends BaseTest
 	@DataProvider
 	public Object[][] getData(){
 		super.init();
-		
-		xls = new Xls_Reader(prop.getProperty("xlspath"));
+		xls = new Xls_Reader(System.getProperty("user.dir")+prop.getProperty("xlspath"));
+		//xls = new Xls_Reader(prop.getProperty("xlspath"));
 		Object[][] data= DataUtil.getTestData(xls, testCaseName);
 		return data;
 		
