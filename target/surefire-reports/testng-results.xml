@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="8" total="27" passed="19">
+<testng-results skipped="0" failed="0" total="32" passed="32">
   <reporter-output>
   </reporter-output>
-  <suite name="SuiteName" duration-ms="15234" started-at="2017-04-11T19:45:10Z" finished-at="2017-04-11T19:45:25Z">
+  <suite name="SuiteName" duration-ms="19123" started-at="2017-04-12T09:42:26Z" finished-at="2017-04-12T09:42:45Z">
     <groups>
     </groups>
-    <test name="registerParkingTest" duration-ms="3126" started-at="2017-04-11T19:45:10Z" finished-at="2017-04-11T19:45:13Z">
+    <test name="registerParkingTest" duration-ms="4122" started-at="2017-04-12T09:42:26Z" finished-at="2017-04-12T09:42:30Z">
       <class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot">
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@40f08448]" name="registerParkingTest" duration-ms="856" started-at="2017-04-12T01:15:10Z" data-provider="getData" finished-at="2017-04-12T01:15:11Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1188e820]" name="registerParkingTest" duration-ms="1368" started-at="2017-04-12T15:12:27Z" data-provider="getData" finished-at="2017-04-12T15:12:28Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@40f08448]" name="repoquit" is-config="true" duration-ms="244" started-at="2017-04-12T01:15:11Z" finished-at="2017-04-12T01:15:11Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1188e820]" name="repoquit" is-config="true" duration-ms="329" started-at="2017-04-12T15:12:28Z" finished-at="2017-04-12T15:12:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@40f08448]" name="registerParkingTest" duration-ms="440" started-at="2017-04-12T01:15:11Z" data-provider="getData" finished-at="2017-04-12T01:15:12Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1188e820]" name="registerParkingTest" duration-ms="454" started-at="2017-04-12T15:12:29Z" data-provider="getData" finished-at="2017-04-12T15:12:29Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@40f08448]" name="repoquit" is-config="true" duration-ms="105" started-at="2017-04-12T01:15:12Z" finished-at="2017-04-12T01:15:12Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1188e820]" name="repoquit" is-config="true" duration-ms="92" started-at="2017-04-12T15:12:29Z" finished-at="2017-04-12T15:12:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@40f08448]" name="registerParkingTest" duration-ms="446" started-at="2017-04-12T01:15:12Z" data-provider="getData" finished-at="2017-04-12T01:15:12Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1188e820]" name="registerParkingTest" duration-ms="448" started-at="2017-04-12T15:12:29Z" data-provider="getData" finished-at="2017-04-12T15:12:30Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@40f08448]" name="repoquit" is-config="true" duration-ms="85" started-at="2017-04-12T01:15:12Z" finished-at="2017-04-12T01:15:12Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1188e820]" name="repoquit" is-config="true" duration-ms="45" started-at="2017-04-12T15:12:30Z" finished-at="2017-04-12T15:12:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@40f08448]" name="registerParkingTest" duration-ms="437" started-at="2017-04-12T01:15:12Z" data-provider="getData" finished-at="2017-04-12T01:15:13Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1188e820]" name="registerParkingTest" duration-ms="432" started-at="2017-04-12T15:12:30Z" data-provider="getData" finished-at="2017-04-12T15:12:30Z">
           <params>
             <param index="0">
               <value>
@@ -63,15 +63,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@40f08448]" name="repoquit" is-config="true" duration-ms="89" started-at="2017-04-12T01:15:13Z" finished-at="2017-04-12T01:15:13Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1188e820]" name="repoquit" is-config="true" duration-ms="93" started-at="2017-04-12T15:12:30Z" finished-at="2017-04-12T15:12:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.registerParkingLot -->
     </test> <!-- registerParkingTest -->
-    <test name="CreateParkingTest" duration-ms="3128" started-at="2017-04-11T19:45:13Z" finished-at="2017-04-11T19:45:16Z">
+    <test name="CreateParkingTest" duration-ms="3788" started-at="2017-04-12T09:42:30Z" finished-at="2017-04-12T09:42:34Z">
       <class name="com.core.restapi.RESTApiProject.testcases.CreateParking">
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="CreateParkingTest" duration-ms="424" started-at="2017-04-12T01:15:13Z" data-provider="getData" finished-at="2017-04-12T01:15:13Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="CreateParkingTest" duration-ms="458" started-at="2017-04-12T15:12:30Z" data-provider="getData" finished-at="2017-04-12T15:12:31Z">
           <params>
             <param index="0">
               <value>
@@ -82,11 +82,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="repoquit" is-config="true" duration-ms="86" started-at="2017-04-12T01:15:13Z" finished-at="2017-04-12T01:15:13Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="repoquit" is-config="true" duration-ms="95" started-at="2017-04-12T15:12:31Z" finished-at="2017-04-12T15:12:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="CreateParkingTest" duration-ms="416" started-at="2017-04-12T01:15:13Z" data-provider="getData" finished-at="2017-04-12T01:15:14Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="CreateParkingTest" duration-ms="444" started-at="2017-04-12T15:12:31Z" data-provider="getData" finished-at="2017-04-12T15:12:31Z">
           <params>
             <param index="0">
               <value>
@@ -97,11 +97,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="repoquit" is-config="true" duration-ms="66" started-at="2017-04-12T01:15:14Z" finished-at="2017-04-12T01:15:14Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="repoquit" is-config="true" duration-ms="91" started-at="2017-04-12T15:12:31Z" finished-at="2017-04-12T15:12:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="FAIL" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="CreateParkingTest" duration-ms="437" started-at="2017-04-12T01:15:14Z" data-provider="getData" finished-at="2017-04-12T01:15:14Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="CreateParkingTest" duration-ms="451" started-at="2017-04-12T15:12:31Z" data-provider="getData" finished-at="2017-04-12T15:12:32Z">
           <params>
             <param index="0">
               <value>
@@ -109,53 +109,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.core.restapi.RESTApiProject.BaseTest.reportFailure(BaseTest.java:365)
-	at com.core.restapi.RESTApiProject.testcases.CreateParking.CreateParkingTest(CreateParking.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="repoquit" is-config="true" duration-ms="77" started-at="2017-04-12T01:15:14Z" finished-at="2017-04-12T01:15:15Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="repoquit" is-config="true" duration-ms="62" started-at="2017-04-12T15:12:32Z" finished-at="2017-04-12T15:12:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="FAIL" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="CreateParkingTest" duration-ms="451" started-at="2017-04-12T01:15:15Z" data-provider="getData" finished-at="2017-04-12T01:15:15Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="CreateParkingTest" duration-ms="461" started-at="2017-04-12T15:12:32Z" data-provider="getData" finished-at="2017-04-12T15:12:32Z">
           <params>
             <param index="0">
               <value>
@@ -163,53 +124,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.core.restapi.RESTApiProject.BaseTest.reportFailure(BaseTest.java:365)
-	at com.core.restapi.RESTApiProject.testcases.CreateParking.CreateParkingTest(CreateParking.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="repoquit" is-config="true" duration-ms="81" started-at="2017-04-12T01:15:15Z" finished-at="2017-04-12T01:15:15Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="repoquit" is-config="true" duration-ms="80" started-at="2017-04-12T15:12:32Z" finished-at="2017-04-12T15:12:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="FAIL" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="CreateParkingTest" duration-ms="438" started-at="2017-04-12T01:15:15Z" data-provider="getData" finished-at="2017-04-12T01:15:15Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="CreateParkingTest" duration-ms="432" started-at="2017-04-12T15:12:32Z" data-provider="getData" finished-at="2017-04-12T15:12:33Z">
           <params>
             <param index="0">
               <value>
@@ -217,53 +139,29 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.core.restapi.RESTApiProject.BaseTest.reportFailure(BaseTest.java:365)
-	at com.core.restapi.RESTApiProject.testcases.CreateParking.CreateParkingTest(CreateParking.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="repoquit" is-config="true" duration-ms="76" started-at="2017-04-12T01:15:15Z" finished-at="2017-04-12T01:15:16Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="repoquit" is-config="true" duration-ms="90" started-at="2017-04-12T15:12:33Z" finished-at="2017-04-12T15:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="CreateParkingTest" duration-ms="435" started-at="2017-04-12T01:15:16Z" data-provider="getData" finished-at="2017-04-12T01:15:16Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="CreateParkingTest" duration-ms="454" started-at="2017-04-12T15:12:33Z" data-provider="getData" finished-at="2017-04-12T15:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ParkingSlotName=Parking3, Runmode=y, SlotNumber=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateParkingTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="repoquit" is-config="true" duration-ms="87" started-at="2017-04-12T15:12:33Z" finished-at="2017-04-12T15:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="CreateParkingTest" duration-ms="451" started-at="2017-04-12T15:12:33Z" data-provider="getData" finished-at="2017-04-12T15:12:34Z">
           <params>
             <param index="0">
               <value>
@@ -274,15 +172,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@76329302]" name="repoquit" is-config="true" duration-ms="79" started-at="2017-04-12T01:15:16Z" finished-at="2017-04-12T01:15:16Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@4148db48]" name="repoquit" is-config="true" duration-ms="85" started-at="2017-04-12T15:12:34Z" finished-at="2017-04-12T15:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.CreateParking -->
     </test> <!-- CreateParkingTest -->
-    <test name="ParkACarTest" duration-ms="2630" started-at="2017-04-11T19:45:16Z" finished-at="2017-04-11T19:45:19Z">
+    <test name="ParkACarTest" duration-ms="3129" started-at="2017-04-12T09:42:34Z" finished-at="2017-04-12T09:42:37Z">
       <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="ParkACarTest" duration-ms="438" started-at="2017-04-12T01:15:16Z" data-provider="getData" finished-at="2017-04-12T01:15:17Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="ParkACarTest" duration-ms="452" started-at="2017-04-12T15:12:34Z" data-provider="getData" finished-at="2017-04-12T15:12:34Z">
           <params>
             <param index="0">
               <value>
@@ -293,11 +191,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="repoquit" is-config="true" duration-ms="89" started-at="2017-04-12T01:15:17Z" finished-at="2017-04-12T01:15:17Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="repoquit" is-config="true" duration-ms="80" started-at="2017-04-12T15:12:34Z" finished-at="2017-04-12T15:12:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="FAIL" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="ParkACarTest" duration-ms="444" started-at="2017-04-12T01:15:17Z" data-provider="getData" finished-at="2017-04-12T01:15:17Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="ParkACarTest" duration-ms="444" started-at="2017-04-12T15:12:35Z" data-provider="getData" finished-at="2017-04-12T15:12:35Z">
           <params>
             <param index="0">
               <value>
@@ -305,53 +203,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.core.restapi.RESTApiProject.BaseTest.reportFailure(BaseTest.java:365)
-	at com.core.restapi.RESTApiProject.testcases.ParkACar.ParkACarTest(ParkACar.java:57)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="repoquit" is-config="true" duration-ms="80" started-at="2017-04-12T01:15:17Z" finished-at="2017-04-12T01:15:17Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="repoquit" is-config="true" duration-ms="78" started-at="2017-04-12T15:12:35Z" finished-at="2017-04-12T15:12:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="ParkACarTest" duration-ms="431" started-at="2017-04-12T01:15:17Z" data-provider="getData" finished-at="2017-04-12T01:15:18Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="ParkACarTest" duration-ms="430" started-at="2017-04-12T15:12:35Z" data-provider="getData" finished-at="2017-04-12T15:12:36Z">
           <params>
             <param index="0">
               <value>
@@ -362,11 +221,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="repoquit" is-config="true" duration-ms="65" started-at="2017-04-12T01:15:18Z" finished-at="2017-04-12T01:15:18Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="repoquit" is-config="true" duration-ms="72" started-at="2017-04-12T15:12:36Z" finished-at="2017-04-12T15:12:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="ParkACarTest" duration-ms="433" started-at="2017-04-12T01:15:18Z" data-provider="getData" finished-at="2017-04-12T01:15:18Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="ParkACarTest" duration-ms="435" started-at="2017-04-12T15:12:36Z" data-provider="getData" finished-at="2017-04-12T15:12:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{registrationNumber=, color=, ParkingSlotName=Parking1, Runmode=y, SlotNumber=5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParkACarTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="repoquit" is-config="true" duration-ms="84" started-at="2017-04-12T15:12:36Z" finished-at="2017-04-12T15:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="ParkACarTest" duration-ms="446" started-at="2017-04-12T15:12:36Z" data-provider="getData" finished-at="2017-04-12T15:12:37Z">
           <params>
             <param index="0">
               <value>
@@ -377,11 +251,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="repoquit" is-config="true" duration-ms="88" started-at="2017-04-12T01:15:18Z" finished-at="2017-04-12T01:15:18Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="repoquit" is-config="true" duration-ms="68" started-at="2017-04-12T15:12:37Z" finished-at="2017-04-12T15:12:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="ParkACarTest" duration-ms="420" started-at="2017-04-12T01:15:18Z" data-provider="getData" finished-at="2017-04-12T01:15:19Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="ParkACarTest" duration-ms="431" started-at="2017-04-12T15:12:37Z" data-provider="getData" finished-at="2017-04-12T15:12:37Z">
           <params>
             <param index="0">
               <value>
@@ -392,15 +266,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@31206beb]" name="repoquit" is-config="true" duration-ms="103" started-at="2017-04-12T01:15:19Z" finished-at="2017-04-12T01:15:19Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@b59d31]" name="repoquit" is-config="true" duration-ms="64" started-at="2017-04-12T15:12:37Z" finished-at="2017-04-12T15:12:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
     </test> <!-- ParkACarTest -->
-    <test name="ParkingStatusTest" duration-ms="1585" started-at="2017-04-11T19:45:19Z" finished-at="2017-04-11T19:45:20Z">
+    <test name="ParkingStatusTest" duration-ms="1617" started-at="2017-04-12T09:42:37Z" finished-at="2017-04-12T09:42:39Z">
       <class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus">
-        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@3444d69d]" name="ParkingStatusTest" duration-ms="451" started-at="2017-04-12T01:15:19Z" data-provider="getData" finished-at="2017-04-12T01:15:19Z">
+        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@23bb8443]" name="ParkingStatusTest" duration-ms="434" started-at="2017-04-12T15:12:37Z" data-provider="getData" finished-at="2017-04-12T15:12:38Z">
           <params>
             <param index="0">
               <value>
@@ -411,11 +285,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkingStatusTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@3444d69d]" name="repoquit" is-config="true" duration-ms="52" started-at="2017-04-12T01:15:19Z" finished-at="2017-04-12T01:15:19Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@23bb8443]" name="repoquit" is-config="true" duration-ms="54" started-at="2017-04-12T15:12:38Z" finished-at="2017-04-12T15:12:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="FAIL" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@3444d69d]" name="ParkingStatusTest" duration-ms="443" started-at="2017-04-12T01:15:19Z" data-provider="getData" finished-at="2017-04-12T01:15:20Z">
+        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@23bb8443]" name="ParkingStatusTest" duration-ms="456" started-at="2017-04-12T15:12:38Z" data-provider="getData" finished-at="2017-04-12T15:12:38Z">
           <params>
             <param index="0">
               <value>
@@ -423,53 +297,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.core.restapi.RESTApiProject.BaseTest.reportFailure(BaseTest.java:365)
-	at com.core.restapi.RESTApiProject.testcases.ParkingStatus.ParkingStatusTest(ParkingStatus.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkingStatusTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@3444d69d]" name="repoquit" is-config="true" duration-ms="78" started-at="2017-04-12T01:15:20Z" finished-at="2017-04-12T01:15:20Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@23bb8443]" name="repoquit" is-config="true" duration-ms="97" started-at="2017-04-12T15:12:38Z" finished-at="2017-04-12T15:12:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@3444d69d]" name="ParkingStatusTest" duration-ms="432" started-at="2017-04-12T01:15:20Z" data-provider="getData" finished-at="2017-04-12T01:15:20Z">
+        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@23bb8443]" name="ParkingStatusTest" duration-ms="443" started-at="2017-04-12T15:12:38Z" data-provider="getData" finished-at="2017-04-12T15:12:39Z">
           <params>
             <param index="0">
               <value>
@@ -480,15 +315,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkingStatusTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@3444d69d]" name="repoquit" is-config="true" duration-ms="83" started-at="2017-04-12T01:15:20Z" finished-at="2017-04-12T01:15:20Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@23bb8443]" name="repoquit" is-config="true" duration-ms="85" started-at="2017-04-12T15:12:39Z" finished-at="2017-04-12T15:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkingStatus -->
     </test> <!-- ParkingStatusTest -->
-    <test name="InfoByColorTest" duration-ms="2011" started-at="2017-04-11T19:45:20Z" finished-at="2017-04-11T19:45:22Z">
+    <test name="InfoByColorTest" duration-ms="2082" started-at="2017-04-12T09:42:39Z" finished-at="2017-04-12T09:42:41Z">
       <class name="com.core.restapi.RESTApiProject.testcases.InfoByColor">
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@80ec1f8]" name="registerParkingTest" duration-ms="450" started-at="2017-04-12T01:15:20Z" data-provider="getData" finished-at="2017-04-12T01:15:21Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@37574691]" name="registerParkingTest" duration-ms="433" started-at="2017-04-12T15:12:39Z" data-provider="getData" finished-at="2017-04-12T15:12:39Z">
           <params>
             <param index="0">
               <value>
@@ -499,11 +334,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@80ec1f8]" name="repoquit" is-config="true" duration-ms="83" started-at="2017-04-12T01:15:21Z" finished-at="2017-04-12T01:15:21Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@37574691]" name="repoquit" is-config="true" duration-ms="84" started-at="2017-04-12T15:12:39Z" finished-at="2017-04-12T15:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@80ec1f8]" name="registerParkingTest" duration-ms="427" started-at="2017-04-12T01:15:21Z" data-provider="getData" finished-at="2017-04-12T01:15:21Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@37574691]" name="registerParkingTest" duration-ms="442" started-at="2017-04-12T15:12:39Z" data-provider="getData" finished-at="2017-04-12T15:12:40Z">
           <params>
             <param index="0">
               <value>
@@ -514,11 +349,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@80ec1f8]" name="repoquit" is-config="true" duration-ms="35" started-at="2017-04-12T01:15:21Z" finished-at="2017-04-12T01:15:21Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@37574691]" name="repoquit" is-config="true" duration-ms="49" started-at="2017-04-12T15:12:40Z" finished-at="2017-04-12T15:12:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="FAIL" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@80ec1f8]" name="registerParkingTest" duration-ms="416" started-at="2017-04-12T01:15:21Z" data-provider="getData" finished-at="2017-04-12T01:15:22Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@37574691]" name="registerParkingTest" duration-ms="454" started-at="2017-04-12T15:12:40Z" data-provider="getData" finished-at="2017-04-12T15:12:40Z">
           <params>
             <param index="0">
               <value>
@@ -526,53 +361,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.core.restapi.RESTApiProject.BaseTest.reportFailure(BaseTest.java:365)
-	at com.core.restapi.RESTApiProject.testcases.InfoByColor.registerParkingTest(InfoByColor.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@80ec1f8]" name="repoquit" is-config="true" duration-ms="58" started-at="2017-04-12T01:15:22Z" finished-at="2017-04-12T01:15:22Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@37574691]" name="repoquit" is-config="true" duration-ms="67" started-at="2017-04-12T15:12:40Z" finished-at="2017-04-12T15:12:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@80ec1f8]" name="registerParkingTest" duration-ms="445" started-at="2017-04-12T01:15:22Z" data-provider="getData" finished-at="2017-04-12T01:15:22Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@37574691]" name="registerParkingTest" duration-ms="434" started-at="2017-04-12T15:12:40Z" data-provider="getData" finished-at="2017-04-12T15:12:41Z">
           <params>
             <param index="0">
               <value>
@@ -583,15 +379,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@80ec1f8]" name="repoquit" is-config="true" duration-ms="64" started-at="2017-04-12T01:15:22Z" finished-at="2017-04-12T01:15:22Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@37574691]" name="repoquit" is-config="true" duration-ms="85" started-at="2017-04-12T15:12:41Z" finished-at="2017-04-12T15:12:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.InfoByColor -->
     </test> <!-- InfoByColorTest -->
-    <test name="getSlotNumberTest" duration-ms="2622" started-at="2017-04-11T19:45:22Z" finished-at="2017-04-11T19:45:25Z">
+    <test name="getSlotNumberTest" duration-ms="2644" started-at="2017-04-12T09:42:41Z" finished-at="2017-04-12T09:42:44Z">
       <class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber">
-        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="getSlotNumberTest" duration-ms="430" started-at="2017-04-12T01:15:22Z" data-provider="getData" finished-at="2017-04-12T01:15:23Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="getSlotNumberTest" duration-ms="469" started-at="2017-04-12T15:12:41Z" data-provider="getData" finished-at="2017-04-12T15:12:41Z">
           <params>
             <param index="0">
               <value>
@@ -602,11 +398,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="repoquit" is-config="true" duration-ms="102" started-at="2017-04-12T01:15:23Z" finished-at="2017-04-12T01:15:23Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="repoquit" is-config="true" duration-ms="75" started-at="2017-04-12T15:12:41Z" finished-at="2017-04-12T15:12:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="getSlotNumberTest" duration-ms="422" started-at="2017-04-12T01:15:23Z" data-provider="getData" finished-at="2017-04-12T01:15:23Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="getSlotNumberTest" duration-ms="434" started-at="2017-04-12T15:12:41Z" data-provider="getData" finished-at="2017-04-12T15:12:42Z">
           <params>
             <param index="0">
               <value>
@@ -617,11 +413,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="repoquit" is-config="true" duration-ms="97" started-at="2017-04-12T01:15:23Z" finished-at="2017-04-12T01:15:23Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="repoquit" is-config="true" duration-ms="79" started-at="2017-04-12T15:12:42Z" finished-at="2017-04-12T15:12:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="FAIL" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="getSlotNumberTest" duration-ms="442" started-at="2017-04-12T01:15:23Z" data-provider="getData" finished-at="2017-04-12T01:15:24Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="getSlotNumberTest" duration-ms="435" started-at="2017-04-12T15:12:42Z" data-provider="getData" finished-at="2017-04-12T15:12:42Z">
           <params>
             <param index="0">
               <value>
@@ -629,53 +425,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.core.restapi.RESTApiProject.BaseTest.reportFailure(BaseTest.java:365)
-	at com.core.restapi.RESTApiProject.testcases.getSlotNumber.getSlotNumberTest(getSlotNumber.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="repoquit" is-config="true" duration-ms="71" started-at="2017-04-12T01:15:24Z" finished-at="2017-04-12T01:15:24Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="repoquit" is-config="true" duration-ms="68" started-at="2017-04-12T15:12:42Z" finished-at="2017-04-12T15:12:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="FAIL" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="getSlotNumberTest" duration-ms="425" started-at="2017-04-12T01:15:24Z" data-provider="getData" finished-at="2017-04-12T01:15:24Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="getSlotNumberTest" duration-ms="457" started-at="2017-04-12T15:12:42Z" data-provider="getData" finished-at="2017-04-12T15:12:43Z">
           <params>
             <param index="0">
               <value>
@@ -683,53 +440,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.core.restapi.RESTApiProject.BaseTest.reportFailure(BaseTest.java:365)
-	at com.core.restapi.RESTApiProject.testcases.getSlotNumber.getSlotNumberTest(getSlotNumber.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="repoquit" is-config="true" duration-ms="86" started-at="2017-04-12T01:15:24Z" finished-at="2017-04-12T01:15:25Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="repoquit" is-config="true" duration-ms="59" started-at="2017-04-12T15:12:43Z" finished-at="2017-04-12T15:12:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="getSlotNumberTest" duration-ms="429" started-at="2017-04-12T01:15:25Z" data-provider="getData" finished-at="2017-04-12T01:15:25Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="getSlotNumberTest" duration-ms="431" started-at="2017-04-12T15:12:43Z" data-provider="getData" finished-at="2017-04-12T15:12:43Z">
           <params>
             <param index="0">
               <value>
@@ -740,11 +458,60 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6b67034]" name="repoquit" is-config="true" duration-ms="82" started-at="2017-04-12T01:15:25Z" finished-at="2017-04-12T01:15:25Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@6c3f5566]" name="repoquit" is-config="true" duration-ms="98" started-at="2017-04-12T15:12:43Z" finished-at="2017-04-12T15:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.getSlotNumber -->
     </test> <!-- getSlotNumberTest -->
+    <test name="vacateParkingTest" duration-ms="1575" started-at="2017-04-12T09:42:44Z" finished-at="2017-04-12T09:42:45Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.vacateParking">
+        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@71248c21]" name="vacateParkingTest" duration-ms="443" started-at="2017-04-12T15:12:44Z" data-provider="getData" finished-at="2017-04-12T15:12:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ParkingSlotName=Parking1, Runmode=y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vacateParkingTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@71248c21]" name="repoquit" is-config="true" duration-ms="93" started-at="2017-04-12T15:12:44Z" finished-at="2017-04-12T15:12:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@71248c21]" name="vacateParkingTest" duration-ms="451" started-at="2017-04-12T15:12:44Z" data-provider="getData" finished-at="2017-04-12T15:12:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ParkingSlotName=Parking2, Runmode=y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vacateParkingTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@71248c21]" name="repoquit" is-config="true" duration-ms="52" started-at="2017-04-12T15:12:45Z" finished-at="2017-04-12T15:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@71248c21]" name="vacateParkingTest" duration-ms="458" started-at="2017-04-12T15:12:45Z" data-provider="getData" finished-at="2017-04-12T15:12:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ParkingSlotName=Parking, Runmode=y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vacateParkingTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@71248c21]" name="repoquit" is-config="true" duration-ms="35" started-at="2017-04-12T15:12:45Z" finished-at="2017-04-12T15:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.vacateParking -->
+    </test> <!-- vacateParkingTest -->
   </suite> <!-- SuiteName -->
 </testng-results>
