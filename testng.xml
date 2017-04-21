@@ -70,4 +70,78 @@
 		
 	</test>
 	
+	<test name="invalidColorStatusTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.invalidColorStatus" />
+		
+		</classes>
+		
+		
+	</test>
+	<test name="noParkedandVacateTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.noParkedandVacate" />
+		
+		</classes>
+		
+		
+	</test>
+	<test name="noParkedCar_getTheStatusTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.noParkedCar_getTheStatus" />
+		
+		</classes>
+		
+		
+	</test>
+	<test name="parkingInFulllyParkedslotsTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.parkingInFulllyParkedslots" />
+		
+		</classes>
+		
+		
+	</test>
+	<test name="ParkVacateGetStatusTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatus" />
+		
+		</classes>
+		
+		
+	</test>
+	<test name="ParkVacateGetStatusByRNAndColorTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatusByRNAndColor" />
+		
+		</classes>
+		
+		
+	</test>
+	
+	<test name="VacateSlotgtTotalSlotTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.VacateSlotgtTotalSlot" />
+		
+		</classes>
+		
+		
+	</test>
+	<test name="validateNearestParkingTest" allow-return-values="true">
+
+		<classes>
+			<class name="com.core.restapi.RESTApiProject.testcases.validateNearestParking" />
+		
+		</classes>
+		
+		
+	</test>
+	
 </suite>

@@ -36,30 +36,19 @@ public class ParkACar extends BaseTest
 			throw new SkipException("Skipping the test as runmode is N");
 		}
 		
-		//url="http://34.205.255.27:8080/parkinglot/"+data.get("ParkingSlotName")+"/createParking?parkingSlot="+data.get("SlotNumber");
-		url="http://34.205.255.27:8080/parkinglot/"+data.get("ParkingSlotName")+"/parkCar"; 
-		test.log(LogStatus.INFO, "URL formed is --> "+url );
-		headerMap.put("Content-Type", "application/json");
-		
-	
-		bodyMap.put("registrationNumber",data.get("registrationNumber"));
-		bodyMap.put("color",data.get("color"));
-	
-		postJson(url,headerMap,bodyMap);
-	    
-	    String Body=getResponseBody();
-	    System.out.println(Body);
-		if (getResponseCode().equalsIgnoreCase("200"))
-		{
-			if (Integer.parseInt(Body)<=Integer.parseInt(data.get("SlotNumber")) && Integer.parseInt(Body)>0)
+		parAcar(data.get("ParkingSlotName"),data.get("registrationNumber"),data.get("color"));
+		   String Body=getResponseBody();
+		    System.out.println(Body);
+			if (getResponseCode().equalsIgnoreCase("200"))
 			{
-				PropertyTransfer.put(data.get("ParkingSlotName"), Integer.parseInt(Body));
-				System.out.println("Key:-"+data.get("ParkingSlotName")+"Value:-"+Integer.parseInt(Body));
-			reportPass("Passed");
+				if ( Integer.parseInt(Body)>0)
+				{
+					PropertyTransfer.put(data.get("ParkingSlotName"), Integer.parseInt(Body));
+					System.out.println("Key:-"+data.get("ParkingSlotName")+"Value:-"+Integer.parseInt(Body));
+				reportPass("Passed");
+				}
 			}
-		}
-		else reportFailure("Failed");
-		
+			else reportFailure("Failed");
 		
 		
 }

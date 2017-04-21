@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="32" passed="32">
+<testng-results skipped="0" failed="0" total="40" passed="40">
   <reporter-output>
   </reporter-output>
-  <suite name="SuiteName" duration-ms="17911" started-at="2017-04-12T17:46:15Z" finished-at="2017-04-12T17:46:33Z">
+  <suite name="SuiteName" duration-ms="38471" started-at="2017-04-20T20:08:24Z" finished-at="2017-04-20T20:09:02Z">
     <groups>
     </groups>
-    <test name="registerParkingTest" duration-ms="3249" started-at="2017-04-12T17:46:15Z" finished-at="2017-04-12T17:46:18Z">
+    <test name="registerParkingTest" duration-ms="3192" started-at="2017-04-20T20:08:24Z" finished-at="2017-04-20T20:08:27Z">
       <class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot">
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="registerParkingTest" duration-ms="881" started-at="2017-04-12T23:16:15Z" data-provider="getData" finished-at="2017-04-12T23:16:16Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="registerParkingTest" duration-ms="834" started-at="2017-04-21T01:38:24Z" data-provider="getData" finished-at="2017-04-21T01:38:25Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="repoquit" is-config="true" duration-ms="270" started-at="2017-04-12T23:16:16Z" finished-at="2017-04-12T23:16:16Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="repoquit" is-config="true" duration-ms="267" started-at="2017-04-21T01:38:25Z" finished-at="2017-04-21T01:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="registerParkingTest" duration-ms="456" started-at="2017-04-12T23:16:16Z" data-provider="getData" finished-at="2017-04-12T23:16:17Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="registerParkingTest" duration-ms="418" started-at="2017-04-21T01:38:25Z" data-provider="getData" finished-at="2017-04-21T01:38:26Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="repoquit" is-config="true" duration-ms="106" started-at="2017-04-12T23:16:17Z" finished-at="2017-04-12T23:16:17Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="repoquit" is-config="true" duration-ms="112" started-at="2017-04-21T01:38:26Z" finished-at="2017-04-21T01:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="registerParkingTest" duration-ms="436" started-at="2017-04-12T23:16:17Z" data-provider="getData" finished-at="2017-04-12T23:16:17Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="registerParkingTest" duration-ms="438" started-at="2017-04-21T01:38:26Z" data-provider="getData" finished-at="2017-04-21T01:38:26Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="repoquit" is-config="true" duration-ms="70" started-at="2017-04-12T23:16:17Z" finished-at="2017-04-12T23:16:17Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="repoquit" is-config="true" duration-ms="93" started-at="2017-04-21T01:38:26Z" finished-at="2017-04-21T01:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="registerParkingTest" duration-ms="432" started-at="2017-04-12T23:16:17Z" data-provider="getData" finished-at="2017-04-12T23:16:18Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="registerParkingTest" duration-ms="424" started-at="2017-04-21T01:38:27Z" data-provider="getData" finished-at="2017-04-21T01:38:27Z">
           <params>
             <param index="0">
               <value>
@@ -63,124 +63,124 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="repoquit" is-config="true" duration-ms="90" started-at="2017-04-12T23:16:18Z" finished-at="2017-04-12T23:16:18Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.registerParkingLot@1b083826]" name="repoquit" is-config="true" duration-ms="84" started-at="2017-04-21T01:38:27Z" finished-at="2017-04-21T01:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.registerParkingLot -->
     </test> <!-- registerParkingTest -->
-    <test name="CreateParkingTest" duration-ms="3601" started-at="2017-04-12T17:46:18Z" finished-at="2017-04-12T17:46:22Z">
+    <test name="CreateParkingTest" duration-ms="3655" started-at="2017-04-20T20:08:27Z" finished-at="2017-04-20T20:08:31Z">
       <class name="com.core.restapi.RESTApiProject.testcases.CreateParking">
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="439" started-at="2017-04-12T23:16:18Z" data-provider="getData" finished-at="2017-04-12T23:16:18Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="421" started-at="2017-04-21T01:38:27Z" data-provider="getData" finished-at="2017-04-21T01:38:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking1, Runmode=y, SlotNumber=5}]]>
+                <![CDATA[{ParkingSlotName=Parking1, Runmode=y, TotalSlotNumber=5}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="79" started-at="2017-04-12T23:16:18Z" finished-at="2017-04-12T23:16:19Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="82" started-at="2017-04-21T01:38:28Z" finished-at="2017-04-21T01:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="428" started-at="2017-04-12T23:16:19Z" data-provider="getData" finished-at="2017-04-12T23:16:19Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="445" started-at="2017-04-21T01:38:28Z" data-provider="getData" finished-at="2017-04-21T01:38:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking2, Runmode=y, SlotNumber=6}]]>
+                <![CDATA[{ParkingSlotName=Parking2, Runmode=y, TotalSlotNumber=6}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="91" started-at="2017-04-12T23:16:19Z" finished-at="2017-04-12T23:16:19Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="83" started-at="2017-04-21T01:38:28Z" finished-at="2017-04-21T01:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="439" started-at="2017-04-12T23:16:19Z" data-provider="getData" finished-at="2017-04-12T23:16:20Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="432" started-at="2017-04-21T01:38:28Z" data-provider="getData" finished-at="2017-04-21T01:38:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking2, Runmode=y, SlotNumber=a}]]>
+                <![CDATA[{ParkingSlotName=Parking2, Runmode=y, TotalSlotNumber=a}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="53" started-at="2017-04-12T23:16:20Z" finished-at="2017-04-12T23:16:20Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="89" started-at="2017-04-21T01:38:29Z" finished-at="2017-04-21T01:38:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="437" started-at="2017-04-12T23:16:20Z" data-provider="getData" finished-at="2017-04-12T23:16:20Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="437" started-at="2017-04-21T01:38:29Z" data-provider="getData" finished-at="2017-04-21T01:38:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking2, Runmode=y, SlotNumber=1.5}]]>
+                <![CDATA[{ParkingSlotName=Parking2, Runmode=y, TotalSlotNumber=1.5}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="81" started-at="2017-04-12T23:16:20Z" finished-at="2017-04-12T23:16:20Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="58" started-at="2017-04-21T01:38:29Z" finished-at="2017-04-21T01:38:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="443" started-at="2017-04-12T23:16:20Z" data-provider="getData" finished-at="2017-04-12T23:16:21Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="430" started-at="2017-04-21T01:38:29Z" data-provider="getData" finished-at="2017-04-21T01:38:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking, Runmode=y, SlotNumber=5}]]>
+                <![CDATA[{ParkingSlotName=Parking, Runmode=y, TotalSlotNumber=5}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="50" started-at="2017-04-12T23:16:21Z" finished-at="2017-04-12T23:16:21Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="86" started-at="2017-04-21T01:38:30Z" finished-at="2017-04-21T01:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="434" started-at="2017-04-12T23:16:21Z" data-provider="getData" finished-at="2017-04-12T23:16:21Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="430" started-at="2017-04-21T01:38:30Z" data-provider="getData" finished-at="2017-04-21T01:38:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking3, Runmode=y, SlotNumber=0}]]>
+                <![CDATA[{ParkingSlotName=Parking3, Runmode=y, TotalSlotNumber=0}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="84" started-at="2017-04-12T23:16:21Z" finished-at="2017-04-12T23:16:21Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="76" started-at="2017-04-21T01:38:30Z" finished-at="2017-04-21T01:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="442" started-at="2017-04-12T23:16:21Z" data-provider="getData" finished-at="2017-04-12T23:16:22Z">
+        <test-method status="PASS" signature="CreateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="CreateParkingTest" duration-ms="444" started-at="2017-04-21T01:38:30Z" data-provider="getData" finished-at="2017-04-21T01:38:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking3, Runmode=y, SlotNumber=-5}]]>
+                <![CDATA[{ParkingSlotName=Parking3, Runmode=y, TotalSlotNumber=-5}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="48" started-at="2017-04-12T23:16:22Z" finished-at="2017-04-12T23:16:22Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.CreateParking@48524010]" name="repoquit" is-config="true" duration-ms="80" started-at="2017-04-21T01:38:31Z" finished-at="2017-04-21T01:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.CreateParking -->
     </test> <!-- CreateParkingTest -->
-    <test name="ParkACarTest" duration-ms="3082" started-at="2017-04-12T17:46:22Z" finished-at="2017-04-12T17:46:25Z">
+    <test name="ParkACarTest" duration-ms="3164" started-at="2017-04-20T20:08:31Z" finished-at="2017-04-20T20:08:34Z">
       <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="432" started-at="2017-04-12T23:16:22Z" data-provider="getData" finished-at="2017-04-12T23:16:22Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="419" started-at="2017-04-21T01:38:31Z" data-provider="getData" finished-at="2017-04-21T01:38:31Z">
           <params>
             <param index="0">
               <value>
@@ -191,11 +191,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="58" started-at="2017-04-12T23:16:22Z" finished-at="2017-04-12T23:16:22Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="94" started-at="2017-04-21T01:38:31Z" finished-at="2017-04-21T01:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="430" started-at="2017-04-12T23:16:22Z" data-provider="getData" finished-at="2017-04-12T23:16:23Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="418" started-at="2017-04-21T01:38:31Z" data-provider="getData" finished-at="2017-04-21T01:38:32Z">
           <params>
             <param index="0">
               <value>
@@ -206,11 +206,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="51" started-at="2017-04-12T23:16:23Z" finished-at="2017-04-12T23:16:23Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="92" started-at="2017-04-21T01:38:32Z" finished-at="2017-04-21T01:38:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="436" started-at="2017-04-12T23:16:23Z" data-provider="getData" finished-at="2017-04-12T23:16:23Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="429" started-at="2017-04-21T01:38:32Z" data-provider="getData" finished-at="2017-04-21T01:38:32Z">
           <params>
             <param index="0">
               <value>
@@ -221,11 +221,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="76" started-at="2017-04-12T23:16:23Z" finished-at="2017-04-12T23:16:23Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="75" started-at="2017-04-21T01:38:32Z" finished-at="2017-04-21T01:38:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="424" started-at="2017-04-12T23:16:23Z" data-provider="getData" finished-at="2017-04-12T23:16:24Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="424" started-at="2017-04-21T01:38:32Z" data-provider="getData" finished-at="2017-04-21T01:38:33Z">
           <params>
             <param index="0">
               <value>
@@ -236,11 +236,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="69" started-at="2017-04-12T23:16:24Z" finished-at="2017-04-12T23:16:24Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="113" started-at="2017-04-21T01:38:33Z" finished-at="2017-04-21T01:38:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="436" started-at="2017-04-12T23:16:24Z" data-provider="getData" finished-at="2017-04-12T23:16:24Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="423" started-at="2017-04-21T01:38:33Z" data-provider="getData" finished-at="2017-04-21T01:38:33Z">
           <params>
             <param index="0">
               <value>
@@ -251,11 +251,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="120" started-at="2017-04-12T23:16:24Z" finished-at="2017-04-12T23:16:24Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="100" started-at="2017-04-21T01:38:33Z" finished-at="2017-04-21T01:38:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="447" started-at="2017-04-12T23:16:24Z" data-provider="getData" finished-at="2017-04-12T23:16:25Z">
+        <test-method status="PASS" signature="ParkACarTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="ParkACarTest" duration-ms="433" started-at="2017-04-21T01:38:33Z" data-provider="getData" finished-at="2017-04-21T01:38:34Z">
           <params>
             <param index="0">
               <value>
@@ -266,15 +266,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkACarTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="55" started-at="2017-04-12T23:16:25Z" finished-at="2017-04-12T23:16:25Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkACar@258e2e41]" name="repoquit" is-config="true" duration-ms="92" started-at="2017-04-21T01:38:34Z" finished-at="2017-04-21T01:38:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
     </test> <!-- ParkACarTest -->
-    <test name="ParkingStatusTest" duration-ms="1599" started-at="2017-04-12T17:46:25Z" finished-at="2017-04-12T17:46:26Z">
+    <test name="ParkingStatusTest" duration-ms="1565" started-at="2017-04-20T20:08:34Z" finished-at="2017-04-20T20:08:36Z">
       <class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus">
-        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="ParkingStatusTest" duration-ms="431" started-at="2017-04-12T23:16:25Z" data-provider="getData" finished-at="2017-04-12T23:16:25Z">
+        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="ParkingStatusTest" duration-ms="431" started-at="2017-04-21T01:38:34Z" data-provider="getData" finished-at="2017-04-21T01:38:34Z">
           <params>
             <param index="0">
               <value>
@@ -285,11 +285,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkingStatusTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="repoquit" is-config="true" duration-ms="109" started-at="2017-04-12T23:16:25Z" finished-at="2017-04-12T23:16:25Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="repoquit" is-config="true" duration-ms="79" started-at="2017-04-21T01:38:34Z" finished-at="2017-04-21T01:38:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="ParkingStatusTest" duration-ms="425" started-at="2017-04-12T23:16:25Z" data-provider="getData" finished-at="2017-04-12T23:16:26Z">
+        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="ParkingStatusTest" duration-ms="427" started-at="2017-04-21T01:38:34Z" data-provider="getData" finished-at="2017-04-21T01:38:35Z">
           <params>
             <param index="0">
               <value>
@@ -300,11 +300,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkingStatusTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="repoquit" is-config="true" duration-ms="74" started-at="2017-04-12T23:16:26Z" finished-at="2017-04-12T23:16:26Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="repoquit" is-config="true" duration-ms="77" started-at="2017-04-21T01:38:35Z" finished-at="2017-04-21T01:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="ParkingStatusTest" duration-ms="441" started-at="2017-04-12T23:16:26Z" data-provider="getData" finished-at="2017-04-12T23:16:26Z">
+        <test-method status="PASS" signature="ParkingStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="ParkingStatusTest" duration-ms="436" started-at="2017-04-21T01:38:35Z" data-provider="getData" finished-at="2017-04-21T01:38:35Z">
           <params>
             <param index="0">
               <value>
@@ -315,15 +315,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParkingStatusTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="repoquit" is-config="true" duration-ms="81" started-at="2017-04-12T23:16:26Z" finished-at="2017-04-12T23:16:26Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkingStatus@143640d5]" name="repoquit" is-config="true" duration-ms="75" started-at="2017-04-21T01:38:35Z" finished-at="2017-04-21T01:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkingStatus -->
     </test> <!-- ParkingStatusTest -->
-    <test name="InfoByColorTest" duration-ms="2121" started-at="2017-04-12T17:46:26Z" finished-at="2017-04-12T17:46:28Z">
+    <test name="InfoByColorTest" duration-ms="2073" started-at="2017-04-20T20:08:36Z" finished-at="2017-04-20T20:08:38Z">
       <class name="com.core.restapi.RESTApiProject.testcases.InfoByColor">
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="registerParkingTest" duration-ms="452" started-at="2017-04-12T23:16:26Z" data-provider="getData" finished-at="2017-04-12T23:16:27Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="registerParkingTest" duration-ms="425" started-at="2017-04-21T01:38:36Z" data-provider="getData" finished-at="2017-04-21T01:38:36Z">
           <params>
             <param index="0">
               <value>
@@ -334,11 +334,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="repoquit" is-config="true" duration-ms="79" started-at="2017-04-12T23:16:27Z" finished-at="2017-04-12T23:16:27Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="repoquit" is-config="true" duration-ms="108" started-at="2017-04-21T01:38:36Z" finished-at="2017-04-21T01:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="registerParkingTest" duration-ms="432" started-at="2017-04-12T23:16:27Z" data-provider="getData" finished-at="2017-04-12T23:16:27Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="registerParkingTest" duration-ms="426" started-at="2017-04-21T01:38:36Z" data-provider="getData" finished-at="2017-04-21T01:38:37Z">
           <params>
             <param index="0">
               <value>
@@ -349,11 +349,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="repoquit" is-config="true" duration-ms="107" started-at="2017-04-12T23:16:27Z" finished-at="2017-04-12T23:16:27Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="repoquit" is-config="true" duration-ms="52" started-at="2017-04-21T01:38:37Z" finished-at="2017-04-21T01:38:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="registerParkingTest" duration-ms="422" started-at="2017-04-12T23:16:27Z" data-provider="getData" finished-at="2017-04-12T23:16:28Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="registerParkingTest" duration-ms="437" started-at="2017-04-21T01:38:37Z" data-provider="getData" finished-at="2017-04-21T01:38:37Z">
           <params>
             <param index="0">
               <value>
@@ -364,11 +364,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="repoquit" is-config="true" duration-ms="73" started-at="2017-04-12T23:16:28Z" finished-at="2017-04-12T23:16:28Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="repoquit" is-config="true" duration-ms="74" started-at="2017-04-21T01:38:37Z" finished-at="2017-04-21T01:38:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="registerParkingTest" duration-ms="418" started-at="2017-04-12T23:16:28Z" data-provider="getData" finished-at="2017-04-12T23:16:28Z">
+        <test-method status="PASS" signature="registerParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="registerParkingTest" duration-ms="432" started-at="2017-04-21T01:38:37Z" data-provider="getData" finished-at="2017-04-21T01:38:38Z">
           <params>
             <param index="0">
               <value>
@@ -379,15 +379,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="repoquit" is-config="true" duration-ms="103" started-at="2017-04-12T23:16:28Z" finished-at="2017-04-12T23:16:28Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.InfoByColor@2aa5fe93]" name="repoquit" is-config="true" duration-ms="81" started-at="2017-04-21T01:38:38Z" finished-at="2017-04-21T01:38:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.InfoByColor -->
     </test> <!-- InfoByColorTest -->
-    <test name="getSlotNumberTest" duration-ms="2605" started-at="2017-04-12T17:46:28Z" finished-at="2017-04-12T17:46:31Z">
+    <test name="getSlotNumberTest" duration-ms="2570" started-at="2017-04-20T20:08:38Z" finished-at="2017-04-20T20:08:40Z">
       <class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber">
-        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="431" started-at="2017-04-12T23:16:29Z" data-provider="getData" finished-at="2017-04-12T23:16:29Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="435" started-at="2017-04-21T01:38:38Z" data-provider="getData" finished-at="2017-04-21T01:38:38Z">
           <params>
             <param index="0">
               <value>
@@ -398,11 +398,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="73" started-at="2017-04-12T23:16:29Z" finished-at="2017-04-12T23:16:29Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="90" started-at="2017-04-21T01:38:38Z" finished-at="2017-04-21T01:38:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="424" started-at="2017-04-12T23:16:29Z" data-provider="getData" finished-at="2017-04-12T23:16:29Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="419" started-at="2017-04-21T01:38:38Z" data-provider="getData" finished-at="2017-04-21T01:38:39Z">
           <params>
             <param index="0">
               <value>
@@ -413,11 +413,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="97" started-at="2017-04-12T23:16:29Z" finished-at="2017-04-12T23:16:30Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="92" started-at="2017-04-21T01:38:39Z" finished-at="2017-04-21T01:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="419" started-at="2017-04-12T23:16:30Z" data-provider="getData" finished-at="2017-04-12T23:16:30Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="430" started-at="2017-04-21T01:38:39Z" data-provider="getData" finished-at="2017-04-21T01:38:39Z">
           <params>
             <param index="0">
               <value>
@@ -428,11 +428,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="61" started-at="2017-04-12T23:16:30Z" finished-at="2017-04-12T23:16:30Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="79" started-at="2017-04-21T01:38:39Z" finished-at="2017-04-21T01:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="427" started-at="2017-04-12T23:16:30Z" data-provider="getData" finished-at="2017-04-12T23:16:30Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="434" started-at="2017-04-21T01:38:39Z" data-provider="getData" finished-at="2017-04-21T01:38:40Z">
           <params>
             <param index="0">
               <value>
@@ -443,11 +443,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="80" started-at="2017-04-12T23:16:30Z" finished-at="2017-04-12T23:16:31Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="93" started-at="2017-04-21T01:38:40Z" finished-at="2017-04-21T01:38:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="464" started-at="2017-04-12T23:16:31Z" data-provider="getData" finished-at="2017-04-12T23:16:31Z">
+        <test-method status="PASS" signature="getSlotNumberTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="getSlotNumberTest" duration-ms="419" started-at="2017-04-21T01:38:40Z" data-provider="getData" finished-at="2017-04-21T01:38:40Z">
           <params>
             <param index="0">
               <value>
@@ -458,60 +458,212 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSlotNumberTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="84" started-at="2017-04-12T23:16:31Z" finished-at="2017-04-12T23:16:31Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.getSlotNumber@37e547da]" name="repoquit" is-config="true" duration-ms="35" started-at="2017-04-21T01:38:40Z" finished-at="2017-04-21T01:38:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.getSlotNumber -->
     </test> <!-- getSlotNumberTest -->
-    <test name="vacateParkingTest" duration-ms="1503" started-at="2017-04-12T17:46:31Z" finished-at="2017-04-12T17:46:33Z">
+    <test name="vacateParkingTest" duration-ms="1535" started-at="2017-04-20T20:08:40Z" finished-at="2017-04-20T20:08:42Z">
       <class name="com.core.restapi.RESTApiProject.testcases.vacateParking">
-        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="vacateParkingTest" duration-ms="424" started-at="2017-04-12T23:16:31Z" data-provider="getData" finished-at="2017-04-12T23:16:32Z">
+        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="vacateParkingTest" duration-ms="421" started-at="2017-04-21T01:38:40Z" data-provider="getData" finished-at="2017-04-21T01:38:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking1, Runmode=y}]]>
+                <![CDATA[{ParkingSlotName=Parking1, Runmode=y, SlotNumber=1}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vacateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="repoquit" is-config="true" duration-ms="63" started-at="2017-04-12T23:16:32Z" finished-at="2017-04-12T23:16:32Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="repoquit" is-config="true" duration-ms="94" started-at="2017-04-21T01:38:41Z" finished-at="2017-04-21T01:38:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="vacateParkingTest" duration-ms="427" started-at="2017-04-12T23:16:32Z" data-provider="getData" finished-at="2017-04-12T23:16:32Z">
+        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="vacateParkingTest" duration-ms="429" started-at="2017-04-21T01:38:41Z" data-provider="getData" finished-at="2017-04-21T01:38:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking2, Runmode=y}]]>
+                <![CDATA[{ParkingSlotName=Parking2, Runmode=y, SlotNumber=1}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vacateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="repoquit" is-config="true" duration-ms="85" started-at="2017-04-12T23:16:32Z" finished-at="2017-04-12T23:16:32Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="repoquit" is-config="true" duration-ms="75" started-at="2017-04-21T01:38:41Z" finished-at="2017-04-21T01:38:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
-        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="vacateParkingTest" duration-ms="419" started-at="2017-04-12T23:16:32Z" data-provider="getData" finished-at="2017-04-12T23:16:33Z">
+        <test-method status="PASS" signature="vacateParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="vacateParkingTest" duration-ms="430" started-at="2017-04-21T01:38:41Z" data-provider="getData" finished-at="2017-04-21T01:38:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParkingSlotName=Parking, Runmode=y}]]>
+                <![CDATA[{ParkingSlotName=Parking, Runmode=y, SlotNumber=1}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vacateParkingTest -->
-        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="repoquit" is-config="true" duration-ms="52" started-at="2017-04-12T23:16:33Z" finished-at="2017-04-12T23:16:33Z">
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.vacateParking@45dd4eda]" name="repoquit" is-config="true" duration-ms="48" started-at="2017-04-21T01:38:42Z" finished-at="2017-04-21T01:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoquit -->
       </class> <!-- com.core.restapi.RESTApiProject.testcases.vacateParking -->
     </test> <!-- vacateParkingTest -->
+    <test name="invalidColorStatusTest" duration-ms="2753" started-at="2017-04-20T20:08:42Z" finished-at="2017-04-20T20:08:45Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.invalidColorStatus">
+        <test-method status="PASS" signature="invalidColorStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.invalidColorStatus@11dc3715]" name="invalidColorStatusTest" duration-ms="2649" started-at="2017-04-21T01:38:42Z" data-provider="getData" finished-at="2017-04-21T01:38:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{registrationNumber=123, 345, 456, color=Black, Red, Orange, wrongcolor=Brown, ParkingSlotName=Parking3, Runmode=y, TotalSlotNumber=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidColorStatusTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.invalidColorStatus@11dc3715]" name="repoquit" is-config="true" duration-ms="73" started-at="2017-04-21T01:38:44Z" finished-at="2017-04-21T01:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.invalidColorStatus -->
+    </test> <!-- invalidColorStatusTest -->
+    <test name="noParkedandVacateTest" duration-ms="1417" started-at="2017-04-20T20:08:45Z" finished-at="2017-04-20T20:08:46Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.noParkedandVacate">
+        <test-method status="PASS" signature="noParkedandVacateTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.noParkedandVacate@4387b79e]" name="noParkedandVacateTest" duration-ms="1288" started-at="2017-04-21T01:38:45Z" data-provider="getData" finished-at="2017-04-21T01:38:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ParkingSlotName=Parking5, Runmode=y, TotalSlotNumber=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noParkedandVacateTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.noParkedandVacate@4387b79e]" name="repoquit" is-config="true" duration-ms="102" started-at="2017-04-21T01:38:46Z" finished-at="2017-04-21T01:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.noParkedandVacate -->
+    </test> <!-- noParkedandVacateTest -->
+    <test name="noParkedCar_getTheStatusTest" duration-ms="1425" started-at="2017-04-20T20:08:46Z" finished-at="2017-04-20T20:08:47Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.noParkedCar_getTheStatus">
+        <test-method status="PASS" signature="noParkedCar_getTheStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.noParkedCar_getTheStatus@2aa3cd93]" name="noParkedCar_getTheStatusTest" duration-ms="1322" started-at="2017-04-21T01:38:46Z" data-provider="getData" finished-at="2017-04-21T01:38:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ParkingSlotName=Parking7, Runmode=y, TotalSlotNumber=5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noParkedCar_getTheStatusTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.noParkedCar_getTheStatus@2aa3cd93]" name="repoquit" is-config="true" duration-ms="74" started-at="2017-04-21T01:38:47Z" finished-at="2017-04-21T01:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.noParkedCar_getTheStatus -->
+    </test> <!-- noParkedCar_getTheStatusTest -->
+    <test name="parkingInFulllyParkedslotsTest" duration-ms="2670" started-at="2017-04-20T20:08:47Z" finished-at="2017-04-20T20:08:50Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.parkingInFulllyParkedslots">
+        <test-method status="PASS" signature="parkingInFulllyParkedslotsTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.parkingInFulllyParkedslots@78b729e6]" name="parkingInFulllyParkedslotsTest" duration-ms="2568" started-at="2017-04-21T01:38:47Z" data-provider="getData" finished-at="2017-04-21T01:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{registrationNumber=123, 345, 456, color=Black, Red, Orange, ParkingSlotName=Parking2, Runmode=y, TotalSlotNumber=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parkingInFulllyParkedslotsTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.parkingInFulllyParkedslots@78b729e6]" name="repoquit" is-config="true" duration-ms="71" started-at="2017-04-21T01:38:50Z" finished-at="2017-04-21T01:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.parkingInFulllyParkedslots -->
+    </test> <!-- parkingInFulllyParkedslotsTest -->
+    <test name="ParkVacateGetStatusTest" duration-ms="4467" started-at="2017-04-20T20:08:50Z" finished-at="2017-04-20T20:08:55Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatus">
+        <test-method status="PASS" signature="ParkVacateGetStatusTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatus@13c10b87]" name="ParkVacateGetStatusTest" duration-ms="4343" started-at="2017-04-21T01:38:50Z" data-provider="getData" finished-at="2017-04-21T01:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{registrationNumber=123, 345, 456, color=Black, Red, Orange, ParkingSlotName=Parking3, Runmode=y, TotalSlotNumber=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParkVacateGetStatusTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatus@13c10b87]" name="repoquit" is-config="true" duration-ms="99" started-at="2017-04-21T01:38:55Z" finished-at="2017-04-21T01:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatus -->
+    </test> <!-- ParkVacateGetStatusTest -->
+    <test name="ParkVacateGetStatusByRNAndColorTest" duration-ms="2671" started-at="2017-04-20T20:08:55Z" finished-at="2017-04-20T20:08:57Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatusByRNAndColor">
+        <test-method status="PASS" signature="ParkVacateGetStatusByRNAndColorTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatusByRNAndColor@2133814f]" name="ParkVacateGetStatusByRNAndColorTest" duration-ms="2584" started-at="2017-04-21T01:38:55Z" data-provider="getData" finished-at="2017-04-21T01:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{registrationNumber=123, color=Black, ParkingSlotName=Parking4, Runmode=y, TotalSlotNumber=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParkVacateGetStatusByRNAndColorTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatusByRNAndColor@2133814f]" name="repoquit" is-config="true" duration-ms="61" started-at="2017-04-21T01:38:57Z" finished-at="2017-04-21T01:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkVacateGetStatusByRNAndColor -->
+    </test> <!-- ParkVacateGetStatusByRNAndColorTest -->
+    <test name="VacateSlotgtTotalSlotTest" duration-ms="1429" started-at="2017-04-20T20:08:57Z" finished-at="2017-04-20T20:08:59Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.VacateSlotgtTotalSlot">
+        <test-method status="PASS" signature="VacateSlotgtTotalSlotTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.VacateSlotgtTotalSlot@6b19b79]" name="VacateSlotgtTotalSlotTest" duration-ms="1315" started-at="2017-04-21T01:38:57Z" data-provider="getData" finished-at="2017-04-21T01:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ParkingSlotName=Parking6, Runmode=y, TotalSlotNumber=5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VacateSlotgtTotalSlotTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.VacateSlotgtTotalSlot@6b19b79]" name="repoquit" is-config="true" duration-ms="82" started-at="2017-04-21T01:38:59Z" finished-at="2017-04-21T01:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.VacateSlotgtTotalSlot -->
+    </test> <!-- VacateSlotgtTotalSlotTest -->
+    <test name="validateNearestParkingTest" duration-ms="3553" started-at="2017-04-20T20:08:59Z" finished-at="2017-04-20T20:09:02Z">
+      <class name="com.core.restapi.RESTApiProject.testcases.validateNearestParking">
+        <test-method status="PASS" signature="validateNearestParkingTest(java.util.Hashtable)[pri:0, instance:com.core.restapi.RESTApiProject.testcases.validateNearestParking@2805c96b]" name="validateNearestParkingTest" duration-ms="3441" started-at="2017-04-21T01:38:59Z" data-provider="getData" finished-at="2017-04-21T01:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{registrationNumber=123, 345, 456, color=Black, Red, Orange, ParkingSlotName=Parking1, Runmode=y, TotalSlotNumber=3, SlotNumber=1,3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNearestParkingTest -->
+        <test-method status="PASS" signature="repoquit()[pri:0, instance:com.core.restapi.RESTApiProject.testcases.validateNearestParking@2805c96b]" name="repoquit" is-config="true" duration-ms="90" started-at="2017-04-21T01:39:02Z" finished-at="2017-04-21T01:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoquit -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.validateNearestParking -->
+    </test> <!-- validateNearestParkingTest -->
   </suite> <!-- SuiteName -->
 </testng-results>

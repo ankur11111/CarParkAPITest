@@ -36,24 +36,16 @@ public class registerParkingLot extends BaseTest
 			throw new SkipException("Skipping the test as runmode is N");
 		}
 		
-		url = "http://34.205.255.27:8080/parkinglot/register?parkingLotName="+data.get("ParkingSlotName");
-		test.log(LogStatus.INFO, "URL formed is --> "+url );
-		headerMap.put("Content-Type", "application/x-www-form-urlencoded");
-		
-	
-	//	bodyMap.put("registrationNumber", "12");
-	//	bodyMap.put("color", "Black");
-	//	postJson(url,headerMap,bodyMap);
-	   post(url,headerMap, bodyMap);
-	    String Body=getResponseBody();
-	    System.out.println(Body);
-		if (Body.equalsIgnoreCase("true") && getResponseCode().equalsIgnoreCase("200"))
-		{
-			reportPass("Passed");
-		}
-		else reportFailure("Failed");
-	
-		
+		registerParking(data.get("ParkingSlotName"));
+		  String Body=getResponseBody();
+		    System.out.println(Body);
+			if (Body.equalsIgnoreCase("true") && getResponseCode().equalsIgnoreCase("200"))
+			{
+				reportPass("Passed");
+				
+			}
+			else reportFailure("Failed");	
+			
 		
 }
 	

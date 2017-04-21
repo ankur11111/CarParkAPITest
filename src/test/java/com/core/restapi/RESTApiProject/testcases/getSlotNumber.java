@@ -36,19 +36,14 @@ public class getSlotNumber extends BaseTest
 			throw new SkipException("Skipping the test as runmode is N");
 		}
 
-		url="http://34.205.255.27:8080/parkinglot/"+data.get("ParkingSlotName")+"/slotNumber?color="+data.get("color")+"&registrationNumber="+data.get("registrationNumber");
-		test.log(LogStatus.INFO, "URL formed is --> "+url );
-		headerMap.put("Content-Type", "application/x-www-form-urlencoded");
-		
-	    get(url,headerMap);
-	    String Body=getResponseBody();
-	    System.out.println(Body);
-		if (getResponseCode().equalsIgnoreCase("200"))
-		{
-			reportPass("Passed");
-		}
-		else reportFailure("Failed");
-	
+		getslotNumber(data.get("ParkingSlotName"),data.get("registrationNumber"),data.get("color"));
+		 String Body=getResponseBody();
+		    System.out.println(Body);
+			if (getResponseCode().equalsIgnoreCase("200"))
+			{
+				reportPass("Passed");
+			}
+			else reportFailure("Failed");
 		
 		
 }
@@ -68,7 +63,6 @@ public class getSlotNumber extends BaseTest
 	public Object[][] getData(){
 		super.init();
 		xls = new Xls_Reader(System.getProperty("user.dir")+prop.getProperty("xlspath"));
-		//xls = new Xls_Reader(prop.getProperty("xlspath"));
 		Object[][] data= DataUtil.getTestData(xls, testCaseName);
 		return data;
 		

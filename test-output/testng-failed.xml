@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SuiteName]">
-  <test name="vacateParkingTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.core.restapi.RESTApiProject.testcases.CreateParking">
+      <class name="com.core.restapi.RESTApiProject.testcases.invalidColorStatus">
         <methods>
+          <include name="invalidColorStatusTest" invocation-numbers="0"/>
           <include name="repoquit"/>
         </methods>
-      </class> <!-- com.core.restapi.RESTApiProject.testcases.CreateParking -->
-      <class name="com.core.restapi.RESTApiProject.testcases.ParkingStatus">
-        <methods>
-          <include name="repoquit"/>
-        </methods>
-      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkingStatus -->
-      <class name="com.core.restapi.RESTApiProject.testcases.getSlotNumber">
-        <methods>
-          <include name="repoquit"/>
-        </methods>
-      </class> <!-- com.core.restapi.RESTApiProject.testcases.getSlotNumber -->
-      <class name="com.core.restapi.RESTApiProject.testcases.vacateParking">
-        <methods>
-          <include name="repoquit"/>
-          <include name="vacateParkingTest" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- com.core.restapi.RESTApiProject.testcases.vacateParking -->
-      <class name="com.core.restapi.RESTApiProject.testcases.InfoByColor">
-        <methods>
-          <include name="repoquit"/>
-        </methods>
-      </class> <!-- com.core.restapi.RESTApiProject.testcases.InfoByColor -->
-      <class name="com.core.restapi.RESTApiProject.testcases.registerParkingLot">
-        <methods>
-          <include name="repoquit"/>
-        </methods>
-      </class> <!-- com.core.restapi.RESTApiProject.testcases.registerParkingLot -->
-      <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
-        <methods>
-          <include name="repoquit"/>
-        </methods>
-      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.invalidColorStatus -->
     </classes>
-  </test> <!-- vacateParkingTest(failed) -->
-</suite> <!-- Failed suite [SuiteName] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

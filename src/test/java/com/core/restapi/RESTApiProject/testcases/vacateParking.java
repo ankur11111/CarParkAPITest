@@ -36,25 +36,15 @@ public class vacateParking extends BaseTest
 			test.log(LogStatus.SKIP, "Skipping the test as runmode is N");
 			throw new SkipException("Skipping the test as runmode is N");
 		}
-		System.out.println("returned is ----"+PropertyTransfer.get(data.get("ParkingSlotName")));
-		if (PropertyTransfer.containsKey(data.get("ParkingSlotName")))
-		url="http://34.205.255.27:8080/parkinglot/"+data.get("ParkingSlotName")+"/vacateParking?parkingSlot="+PropertyTransfer.get(data.get("ParkingSlotName"));
-		else
-		url="http://34.205.255.27:8080/parkinglot/"+data.get("ParkingSlotName")+"/vacateParking?parkingSlot=";	
-		test.log(LogStatus.INFO, "URL formed is --> "+url );
-		headerMap.put("Content-Type", "application/x-www-form-urlencoded");
-		
-	
-	    post(url,headerMap,bodyMap);
-	    String Body=getResponseBody();
-	    System.out.println(Body);
-		if (getResponseCode().equalsIgnoreCase("200"))
-		{
-			
-			reportPass("Passed");
-		}
-		else reportFailure("Failed");
-	
+		vacateParking(data.get("ParkingSlotName"),data.get("SlotNumber"));
+		 String Body=getResponseBody();
+		    System.out.println(Body);
+			if (getResponseCode().equalsIgnoreCase("200"))
+			{
+				
+				reportPass("Passed");
+			}
+			else reportFailure("Failed");	
 		
 		
 }

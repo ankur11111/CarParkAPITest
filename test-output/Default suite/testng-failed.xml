@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.core.restapi.RESTApiProject.testcases.ParkACar">
+      <class name="com.core.restapi.RESTApiProject.testcases.invalidColorStatus">
         <methods>
-          <include name="ParkACarTest" invocation-numbers="0 2 3 4"/>
+          <include name="invalidColorStatusTest" invocation-numbers="0"/>
           <include name="repoquit"/>
         </methods>
-      </class> <!-- com.core.restapi.RESTApiProject.testcases.ParkACar -->
+      </class> <!-- com.core.restapi.RESTApiProject.testcases.invalidColorStatus -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

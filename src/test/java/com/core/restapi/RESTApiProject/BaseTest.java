@@ -53,7 +53,7 @@ public class BaseTest
 	public  LinkedHashMap bodyMap = new LinkedHashMap();
 	public  String xmlBody = null;
 	public  String url = null;
-	
+	public static int check=0;
 	public Properties prop;
 	public Properties envProp;
 	public static HttpResponse response;
@@ -131,8 +131,7 @@ public class BaseTest
      
        	
        	HttpClient client = new DefaultHttpClient();
-       //	HttpPost request = new HttpPost(url);
-       	
+   	
        	HttpPost request = new HttpPost(url); 	
    	  	
    	  	Object[] keys = new String[500];
@@ -172,19 +171,9 @@ public class BaseTest
 
 	  	}
 
-   	  		//HttpResponse response = null;
-
+   	  		
    			response = client.execute(request);
-   	//		System.out.println("-------------------------------------------------------------");
-       //	    System.out.println(EntityUtils.toString(response.getEntity()));
-     //  	 String responseString = EntityUtils.toString(response.getEntity());
-      // 	 EofSensorInputStream s=new EofSensorInputStream();
-      // 	 System.out.println("-------------------------------------------------------------");
-   			//setResponseBody(response);
-   			//setResponseHeaders(response);
-   			//setResponseCode(response);
-   			//setCompleteResponse(response);
-   		//	return response;
+   	
    			test.log(LogStatus.INFO, "Response is  "+response.toString());
        	
        
@@ -192,8 +181,7 @@ public class BaseTest
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//return value;
-	//	return response;
+	
 
 	}
 	
@@ -202,16 +190,12 @@ public class BaseTest
 	
 public void postJson(String url, LinkedHashMap headerMap, LinkedHashMap bodyMap){
 		
-		//String value = null;
-		
-	
-		
         try {
         	String Json = null;
        
        	
        	HttpClient client = new DefaultHttpClient();
-       //	HttpPost request = new HttpPost(url);
+       
        	
        	HttpPost request = new HttpPost(url); 	
    	  	
@@ -256,20 +240,14 @@ public void postJson(String url, LinkedHashMap headerMap, LinkedHashMap bodyMap)
 	  	   	  	
      	 
 	  		}
-	  	//	System.out.println("String created is:- "+Json);
+	  
 	  		test.log(LogStatus.INFO, "Json Body is  "+Json);
 	  	}
    	    StringEntity entity = new StringEntity(Json);
 		request.setEntity(entity);
-   	  		//HttpResponse response = null;
-	//	System.out.println(response);
+   	  	
    			response = client.execute(request);
-   	//		System.out.println(response);
-   	//	 System.out.println(EntityUtils.toString(response.getEntity()));
-   			//setResponseBody(response);
-   			//setResponseHeaders(response);
-   			//setResponseCode(response);
-   			//setCompleteResponse(response);
+
    			test.log(LogStatus.INFO, "Response is  "+response.toString());
    			
        	
@@ -337,10 +315,7 @@ public  String[] getResponseHeaders(){
 			
 			responseHeader[i] = temp[i].toString();	
 			test.log(LogStatus.INFO, "Response Header is  "+responseHeader[i]);		
-			
-			//System.out.println("$$$$$$$$$$$$$$$$$$$$");
-			
-			//System.out.println(Service.responseHeader[i]);
+	
 			
 		}
 		
@@ -371,6 +346,90 @@ public void reportFailure(String msg){
 	test.log(LogStatus.FAIL, msg);
 	SoftAssert softAssert=new SoftAssert();
 	softAssert.fail(msg);
-	//Assert.fail(msg);
+
 }	
+
+
+
+
+
+
+
+
+public void registerParking(String Parkingname) throws ParseException, IOException
+{
+	
+	
+	url = "http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/register?parkingLotName="+Parkingname;
+	test.log(LogStatus.INFO, "URL formed is --> "+url );
+	headerMap.put("Content-Type", "application/x-www-form-urlencoded");
+    post(url,headerMap, bodyMap);
+  
+}
+
+public void createParking(String Parkingname, String slotnumber) throws ParseException, IOException
+{
+	//url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+data.get("ParkingSlotName")+"/createParking?parkingSlot="+data.get("SlotNumber"); 
+	url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+Parkingname+"/createParking?parkingSlot="+slotnumber; 
+	test.log(LogStatus.INFO, "URL formed is --> "+url );
+	headerMap.put("Content-Type", "application/x-www-form-urlencoded");
+    post(url,headerMap, bodyMap);
+   
+}
+
+public void parAcar(String Parkingname,String registrationnumber, String color) throws ParseException, IOException
+{
+	
+	url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+Parkingname+"/parkCar";
+	test.log(LogStatus.INFO, "URL formed is --> "+url );
+	headerMap.put("Content-Type", "application/json");
+	bodyMap.put("registrationNumber",registrationnumber);
+	bodyMap.put("color",color);
+	postJson(url,headerMap,bodyMap);   
+ 	
+}
+
+public void parkingStatus(String Parkingname) throws ParseException, IOException
+{
+	url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+Parkingname+"/status";
+	test.log(LogStatus.INFO, "URL formed is --> "+url );
+	headerMap.put("Content-Type", "application/x-www-form-urlencoded");
+	get(url,headerMap);
+    
+	
+}
+
+public void getslotNumber(String Parkingname,String registrationnumber, String color) throws ParseException, IOException
+{
+	url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+Parkingname+"/slotNumber?color="+color+"&registrationNumber="+registrationnumber;
+	test.log(LogStatus.INFO, "URL formed is --> "+url );
+	headerMap.put("Content-Type", "application/x-www-form-urlencoded");
+	
+    get(url,headerMap);
+   	
+}
+
+public void infoByColor(String Parkingname, String color) throws ParseException, IOException
+{
+	url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+Parkingname+"/car?color="+color;
+	test.log(LogStatus.INFO, "URL formed is --> "+url );
+	headerMap.put("Content-Type", "application/x-www-form-urlencoded");
+    get(url,headerMap);
+    	
+}
+
+public void vacateParking(String Parkingname, String slotnumber) throws ParseException, IOException
+{
+	System.out.println("returned is ----"+PropertyTransfer.get(Parkingname));
+	if (PropertyTransfer.containsKey(Parkingname)&&check!=1)
+	url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+Parkingname+"/vacateParking?parkingSlot="+PropertyTransfer.get(Parkingname);
+	else if(check==0)
+	url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+Parkingname+"/vacateParking?parkingSlot=";
+	else if(check==1) 
+	url="http://"+prop.getProperty("IP")+":"+prop.getProperty("PORT")+"/parkinglot/"+Parkingname+"/vacateParking?parkingSlot="+slotnumber;
+	test.log(LogStatus.INFO, "URL formed is --> "+url );
+	headerMap.put("Content-Type", "application/x-www-form-urlencoded");
+    post(url,headerMap,bodyMap);
+   
+}
 }
